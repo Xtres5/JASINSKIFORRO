@@ -5,6 +5,8 @@ public class Game {
 	Utils utils = new Utils();
 	Random rand = new Random();
 	Scanner s = new Scanner(System.in);
+	final int minHeight = 600;
+	final int minWidth = 800;
 	
 	public Game() {
 		Player player = createPlayer();
@@ -105,5 +107,4 @@ public class Game {
 		
 		return gameOver;
 	}
-	
 }
